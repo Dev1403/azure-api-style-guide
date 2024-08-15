@@ -1,21 +1,21 @@
 extends: spectral:oas
 functionsDir: './functions'
 functions:
-  - az-paths-kebab-case
-  - az-path-parameters-camelCase-alphanumeric
-  - az-request-GET-no-body
-  - az-headers-no-x-headers
-  - az-headers-hyphenated-pascal-case
-  - az-request-support-json
-  - az-valid-example-in-parameters
-  - az-valid-example-in-definitions
-  - az-default-response
-  - az-parameter-description
-  - az-parameter-order
-  - az-path-case-convention
-  - az-path-parameter-names
-  - az-property-default-not-allowed
-  - az-property-description
+  - paths-kebab-case
+  - path-parameters-camelCase-alphanumeric
+  - request-GET-no-body
+  - headers-no-x-headers
+  - headers-hyphenated-pascal-case
+  - request-support-json
+  - valid-example-in-parameters
+  - valid-example-in-definitions
+  - default-response
+  - parameter-description
+  - parameter-order
+  - path-case-convention
+  - path-parameter-names
+  - property-default-not-allowed
+  - property-description
 
 rules:
   info-contact: off
